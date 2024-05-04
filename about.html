@@ -19,7 +19,47 @@
     <title>About Candela</title>
   </head>
   <body>
-    <a href="index.html" class="homepage-link">Back to homepage</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Candela Chaves</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://6848tn.csb.app/index.html#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://6848tn.csb.app/about.html"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://6848tn.csb.app/about.html#contact"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <header>
       <h1>About me</h1>
       <h3>Front-end developer from Buenos Aires, Argentina</h3>
@@ -32,26 +72,35 @@
         blanditiis harum.
       </p>
     </div>
-    <div class="container-about">
+    <div class="container">
       <div class="row mb-3">
-        <div class="col-sm-4">
+        <div class="col-md-4">
           <img
             src="images/yoga.png"
-            class="yoga-image img-fluid rounded shadow-sm"
+            class="yoga-image img-fluid p-2 mb-4 rounded shadow-sm"
           />
         </div>
-        <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid rounded shadow-sm" />
+        <div class="col-md-4">
+          <img
+            src="images/weather.png"
+            class="img-fluid p-2 mb-4 rounded shadow-sm"
+          />
         </div>
-        <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid rounded shadow-sm" />
+        <div class="col-md-4">
+          <img
+            src="images/yogurt.png"
+            class="img-fluid p-2 mb-4 rounded shadow-sm"
+          />
         </div>
       </div>
     </div>
     <footer>
-      <p class="footer-about">📮 Contact me</p>
-      <a href="mailto:candela@gmail.com" class="email-link">
+      <div class="footer-contact">📮 Contact me</div>
+      <a href="mailto:candela@gmail.com" class="footer-email">
         candela@gmail.com
+        <br />
+        <br />
+        <a href="index.html" class="homepage-link">Back to homepage</a>
       </a>
     </footer>
   </body>

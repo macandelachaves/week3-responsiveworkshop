@@ -5,27 +5,26 @@
   --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .container {
     text-align: center;
   }
-  .header {
-    font-size: 40%;
-  }
 
-  .yoga {
+  .yoga-index {
     display: none;
   }
-  .weather {
+  .weather-index {
     display: none;
   }
-  .yogurt {
+  .yogurt-index {
     display: none;
   }
 }
 
 body {
   color: var(--main-font-color);
+  margin: 0px 20px 20px 20px;
+  padding: 20px;
 }
 
 header {
@@ -36,7 +35,6 @@ header {
 h1 {
   font-size: 30px;
   opacity: 0.4;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -48,14 +46,6 @@ h3 {
   font-size: 55px;
 }
 
-p {
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -63,11 +53,11 @@ p {
 }
 
 .navigation-links a {
-  margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  margin: 20px;
 }
 
 .contact-link {
@@ -81,6 +71,14 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.index-project-button {
+  background-color: #6c63ff;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+  border-radius: 4px;
+}
+
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -92,25 +90,32 @@ p {
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .about-paragraphs p {
   margin: 10px;
 }
 
-.footer-about {
-  font-size: 50px;
+.footer-contact {
   text-align: center;
+  font-size: 50px;
+  color: var(--main-font-color);
 }
 
-.email-link {
+.footer-email {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
 }
 
-.email-link:hover {
+.footer-email:hover {
   text-decoration: underline;
 }

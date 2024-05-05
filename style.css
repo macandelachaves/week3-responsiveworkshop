@@ -71,6 +71,14 @@ h3 {
   font-size: 15px;
 }
 
+.h1-about {
+  font-size: 5rem;
+}
+.h3-about {
+  font-size: 3.125rem;
+  color: var(--main-font-color);
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;

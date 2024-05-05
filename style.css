@@ -5,23 +5,7 @@
   --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media (max-width: 800px) {
-  .container {
-    text-align: center;
-  }
-
-  .yoga-index {
-    display: none;
-  }
-  .weather-index {
-    display: none;
-  }
-  .yogurt-index {
-    display: none;
-  }
-}
-
-body {
+.wrapper {
   color: var(--main-font-color);
   margin: 0px 20px 20px 20px;
   padding: 20px;
@@ -33,17 +17,17 @@ header {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   opacity: 0.4;
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 55px;
+  font-size: 3.4375rem;
 }
 
 .navigation-links {
@@ -118,4 +102,15 @@ h3 {
 
 .footer-email:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .body,
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+    text-align: center;
+  }
 }
